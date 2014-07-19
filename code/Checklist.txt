@@ -33,19 +33,19 @@ B. Protosite                                                                Owne
 17. Test final website with Safari
 18. Test final website with Chrome
 19. Test final website with Opera.
-20. Design the quiz form but do not need it working.  Can
+20. Design the quiz form but do not need it working.  Can              
     have a timer but do not have it working.
-22. Proto-site Home Page
-23. Proto-site Lecture Page                                                  S&C        No
-24. Proto-site Quiz Page                                                     J
-25. Proto-site Resource Page                                      
-27. Provide Jason with list of CSS3 and Jquery for rationale                 S&C        No	
+22. Proto-site Home Page               
+23. Proto-site Lecture Page                                                  S          No
+24. Proto-site Quiz Page                                                     J          Yes
+25. Proto-site Resource Page                                                                                
+27. Provide Jason with list of CSS3 and Jquery for rationale                 S          No	
 28. Allow website to be adjusted for 2 widths (but no for 
     smartphones) - user Media Query
 29. All Proto site works with 2 style sheets: normal view
 30. All Proto site works with 2 style sheets: Projector
 31. All Proto site styled for printing.
-32. Comment all code and use good tabbing.                                   J,S,C
+32. Comment all code and use good tabbing.                                   J,S
 33. Validate all HTML 5										     
 34. Validate all CSS
 35. Ensure SEO used on all pages.
