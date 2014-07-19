@@ -1,0 +1,86 @@
+COMP 1950 Final Project Check List:
+
+A. Meta Site (CSS different than protosite)                                 Owner     DraftDone?   CompletelyFinished?  TargetDate   
+1. Introduction Page-describes project and members of team.                 Jason      No
+2. Link to the Protosite: actual website                                    Jason      No
+3. SiteMap (links are not to work)                                          Jason
+4. Proto-site Rationale                                                     Jason      No
+
+
+
+B. Protosite                                                                Owner     DraftDone?   CompletelyFinished?  TargetDate                                                                            
+1.  link to section lecture
+2.  link to resources (text books & links to other website)
+3.  link to exercises
+4.  link to students of COMP1950
+5.  link to course cirriculum (fake link)
+6.  link to timetable (fake link)
+7.  link to room information (fake link)
+8.  link to grading (fake link or existing)
+9.  link to policies (existing)
+10. submit exercises (must be on sample exercise page.  Do not
+    implement.  Just make sure button exists)
+11. Ensure navigation accesses lecture notes, examples, and
+    downloads from any page.  Must limit the data shown to
+	user. Do not implement this using any code.   
+	Display all lectures in menu e.g.  Session01, Session02, 
+	Session03, Session04 but if in week2/session3, grey out 
+	any Session greater than Session03.
+13. Link to bcit.ca
+14. Link to my.bcit.ca
+15. Link to http://www.bcit.ca/study/courses/comp1950
+16. Test final website with firefox
+17. Test final website with Safari
+18. Test final website with Chrome
+19. Test final website with Opera.
+20. Design the quiz form but do not need it working.  Can
+    have a timer but do not have it working.
+22. Proto-site Home Page
+23. Proto-site Lecture Page                                                  S&C        No
+24. Proto-site Quiz Page                                                     J
+25. Proto-site Resource Page                                      
+27. Provide Jason with list of CSS3 and Jquery for rationale                 S&C        No	
+28. Allow website to be adjusted for 2 widths (but no for 
+    smartphones) - user Media Query
+29. All Proto site works with 2 style sheets: normal view
+30. All Proto site works with 2 style sheets: Projector
+31. All Proto site styled for printing.
+32. Comment all code and use good tabbing.                                   J,S,C
+33. Validate all HTML 5										     
+34. Validate all CSS
+35. Ensure SEO used on all pages.
+36. Decide what CSS 3.0 animation should be used.  It must 
+    be agreed by all members that it makes the website
+    more functional but it should not make it look to
+    cheesy.  
+	
+NOTE:
+1.  There will be no link from the proto-site back to the metasite.
+    I think the proto-site should be self contained.
+2.  The meta site will have a different design than the proto-site
+    as per requirements.
+	
+*NOT REQUIRED
+1.  browse, search, login, view news, send email, call, explore. 
+    We can mention this in the rationale that these could be done.           Jason     No
+2.  Use of BCIT logo - do not do this.
+3.  Do not make GUI work with smartphones.  -not required and 
+    wasting valuable time.
+4.  Do not use CMS - not required and waste of time.  Can 
+    mention in rationale that it could be used.                              Jason     No
+5.  Do not fully implement the online quiz.  Do not validate                 Jason     No
+    or lockout user after timeout.                    
+6.  Do not implement protecting of these pages from invalid                  Jason     No
+    users.  Just mention in the rationale how this would work. 
+7.  Do not include actual notes for the class.  Not required
+    and using up precious time.
+8.  Techniques not covered in class like PHP, Flash.
+	
+MISC:
+1  Update rationale to mentioned techniques, examples,                       Jason      no
+   and exercises are clearly described and resources
+   can be easily accessed.
+2  Update rationale to use the adjectives:                                   Jason   
+   professional, enthusaiastic, encouraging,
+   useful, educational, challenging, visually appealng,
+   easy to use.
