@@ -9,16 +9,20 @@ A. Meta Site (CSS different than protosite)                                 Owne
 
 
 B. Protosite                                                                Owner     DraftDone?   CompletelyFinished?  TargetDate                                                                            
-1.  link to section lecture
-2.  link to resources (text books & links to other website)
-3.  link to exercises
-5.  link to course cirriculum (fake link)
-6.  link to timetable (fake link)
-7.  link to room information (fake link)
-8.  link to grading (fake link or existing)
-9.  link to policies (existing)
-10. submit exercises (must be on sample exercise page.  Do not
-    implement.  Just make sure button exists)
+1.  nav item for lecture 
+2.  nav item for resources (text books & links to other website)
+    See http://bcitcomp.ca/comp1950/resources/ for sample content
+3.  nav item to exercises
+4.  nav item to course info
+5.  menu item course cirriculum linked to 
+        http://www.bcit.ca/study/outlines/20142061056
+6.  menu item timetable (fake link)
+7.  menu item room information (fake link)
+8.  menu item grading (fake link or existing)
+9.  menu item policies linked to:
+        http://www.bcit.ca/study/outlines/20142061056
+10. submit exercises (must be on a sample exercise page.  Do not
+    implement.  Just make sure button exists). 
 11. Ensure navigation accesses lecture notes, examples, and
     downloads from any page.  Must limit the data shown to
 	user. Do not implement this using any code.   
@@ -39,8 +43,8 @@ B. Protosite                                                                Owne
 24. Proto-site Quiz Page                                                     J          Yes
 25. Proto-site Resource Page                                                                                
 27. Provide Jason with list of CSS3 and Jquery for rationale                 S          No	
-28. Allow website to be adjusted for 2 widths (but no for 
-    smartphones) - user Media Query
+28. Allow website to be adjusted for 2 widths <= 1024 &
+    >1024 using Media Query
 29. All Proto site works with 2 style sheets: normal view
 30. All Proto site works with 2 style sheets: Projector
 31. All Proto site styled for printing.
