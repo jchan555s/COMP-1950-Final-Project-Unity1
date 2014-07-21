@@ -1,0 +1,244 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+
+
+*, html, body {
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li{
+	list-style: none;
+}
+
+nav {
+	height: 100px;
+	background: #52565a;
+	position:relative;
+	z-index:1;
+}
+
+body {
+	background: #fdfdfd;
+}
+span{
+	color: #00acb7;
+}
+
+h1 {
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 2em;
+	color: #989c9d;
+}
+
+h2 {
+	margin-left:-20px;
+	margin-top: 40px;
+	font-weight: 600;
+	font-size: 2em;
+	color: #989c9d;
+}
+
+section {
+	margin-left: 280px;
+	margin-top: 40px;
+	color: #989c9d;
+	margin-bottom:40px;
+}
+
+code{
+	font-weight:600;
+	font-family: 'Source Code Pro', sans-serif;
+	background: #2a2a2a;
+	border-radius:4px;
+	padding:2px 9px 3px 9px;
+	margin-right:5px;
+	color: #00acb7;
+	font-size:.950em;
+}
+
+hr { 
+	display: block; 
+	height: 1px;
+    border: 0; 
+	border-top: 1px solid #dadcdd;
+    margin-top:40px;
+}
+
+#class {
+	color: #adadad;
+}
+
+#nav {
+	margin-left: 20px;
+}
+
+#extralinks {
+	margin-right: 20px;
+}
+
+#extralinks li {
+	margin-top: -10px;
+	display: block;
+	float: right;
+	font-size: 0.750em;
+	color: #b3bac2;
+	padding: 4px 10px 6px 10px;
+	border-radius: 4px;
+	font-weight: 600;
+	clear: left;
+
+}
+
+#nav li {
+	margin-top: 35px;
+	display: block;
+	float: left;
+
+	font-weight: 400;
+	font-size: 1em;
+	padding: 5px 12px 7px 12px;
+	border-radius: 20px;
+	margin-right: 2px;
+}
+
+nav a{
+	color: #cfd3d8;
+}
+
+a{
+	text-decoration:none;
+}
+
+#loginbutton {
+	margin-top: 18px;
+	display: block;
+	float: right;
+	font-size: 0.9em;
+	color: white;
+	padding: 5px 15px 7px 15px;
+	border-radius: 4px;
+	font-weight: 400;
+	background: #00acb7;
+	margin-right: 30px;
+}
+
+#sidebar {
+	position:fixed;
+	display: block;
+	height: 100%;
+	width: 233px;
+	background: #dadcdd;
+
+}
+
+#chaptertitle{
+	margin-top:140px;
+	margin-left:53px;
+	font-weight:600;
+	font-family: 'Source Code Pro', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.080em;
+	color: #231f20;
+}
+
+figure img{
+	float: left;
+	margin-top: -24px;
+	margin-left: 30px;
+}
+
+.bookmark img {
+	margin-right: 15px;
+	float: left;
+	margin-top: 48px;
+	margin-left: 0;
+}	
+
+.contentlist {
+	margin-top: 20px;
+}
+
+.contentp {
+	margin-top: 60px;
+	margin-bottom:20px;
+	font-size: 1.2em;
+	color: #777a7b;
+	max-width:1000px;
+	margin-right:40px;
+}
+
+.contentlist li {
+	list-style-type: disc;
+	margin-left: 50px;
+	line-height: 2.1em;
+	margin-right:40px;
+}
+
+.orderedcontentlist li {
+	list-style-type: decimal;
+	margin-left: 50px;
+	line-height: 2.1em;
+	margin-right:40px;
+}
+
+
+#chapters{
+	margin-top:10px;
+}
+
+#chapters li{
+	font-family: 'Source Code Pro', sans-serif;
+	line-height:30px;
+	font-weight:400;
+	padding-left:30px;
+	font-size:.9em;
+}
+
+#chapters a{
+	color: #7a7c7d;
+}
+
+a:visited {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+a:focus {
+	text-decoration:none;
+}
+
+a:active {
+	text-decoration:none;
+}
+
+#nav li:hover {
+	background: #45494c;
+	color: #dfe2e5;
+}
+
+#extralinks li:hover {
+
+	color: #dfe2e5;
+}
+
+#loginbutton:hover {
+	background: #00c9d6;
+}
+
+#chapters li:hover {
+	background: #52565a;
+}
+
+#chapters li a:hover {
+		color: #00acb7;
+}
