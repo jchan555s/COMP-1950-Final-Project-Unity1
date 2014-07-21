@@ -64,6 +64,8 @@ NOTE:
     as per requirements.
 	
 *NOT REQUIRED
+0.  We won't implement the Exercise page.  It will show up as a mock
+    up in Rationale.
 1.  browse, search, login, view news, send email, call, explore. 
     We can mention this in the rationale that these could be done.           Jason     No
 2.  Use of BCIT logo - do not do this.
