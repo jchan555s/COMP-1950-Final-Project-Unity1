@@ -41,6 +41,9 @@
 				<li><a href=''>Resources</a></li>
 				<li><a href=''>Course info</a></li>
 			</ul>
+			<form>
+				<input type="text" name="search" value="search" title="search">
+			</form>
 			<a href='' id='loginbutton'>log in</a>
 			<br/>
 			<ul id='extralinks'>
@@ -53,9 +56,11 @@
 	
 	<!-- Content starts here -->
 		<section>
+			<div id='wrapper'>
 			<p id='class'>COMP 1950 - <em>intermediate web design and development</em></p>
 			<h1><span>Lecture 4 </span>&#123; CSS Layouts &#125;</h1>
-			<figure class='bookmark'><img src='bookmark_large.png' alt='' /></figure><a id='c1'><h2>Agenda</h2></a>
+			<hr/>
+			<figure class='bookmark'><img src='bookmark_large.png' alt='' /></figure><a id='c1' class='shifted_anchor' ></a><h2>Agenda</h2>
 			<ul class='contentlist'>
 				<li>CSS Backgrounds, Sprites</li>
 				<li>CSS Reset</li>
@@ -64,7 +69,7 @@
 				<li>Navigation</li>
 			</ul>
 			<hr/>
-			<figure class='bookmark'><img src='bookmark_large.png' alt='' /></figure><a id='c2'><h2>CSS Backgrounds</h2></a>
+			<figure class='bookmark'><img src='bookmark_large.png' alt='' /></figure><a id='c2' class='shifted_anchor' ></a><h2>CSS Backgrounds</h2>
 			<p class='contentp'>CSS supports several useful background related properties.</p>
 			<ul class='contentlist'>
 				<li><code>background-color:</code> assign the background color</li>
@@ -77,7 +82,7 @@
 			<p class='contentp'>The pattern to follow when using the background property to define several space delimited values at once:</p>
 			<code>background: &lt;background-color&gt; | &lt;background-image&gt; | &lt;background-repeat&gt; | &lt;background-attachment&gt; | &lt;background-position&gt;</code>
 			<hr/>
-			<figure class='bookmark'><img src='bookmark_large.png' alt='' /></figure><a id='c3'><h2>Sprites</h2></a>
+			<figure class='bookmark'><img src='bookmark_large.png' alt='' /></figure></figure><a id='c3' class='shifted_anchor' ></a><h2>Sprites</h2>
 			<p class='contentp'>Each image on your website requires a separate request/response between the client and server. Using one larger image instead of several smaller images can result in a more effiecient client/server transaction, since it reduces the number of requests/responses that need to occur.
 			<br/>
 			<br/>
@@ -107,7 +112,19 @@
 				<li>time spent building the composite sprite image(s) increases</li>
 				<li>time coding and maintaining the CSS increases</li>
 			</ul>
+			</div>
+				<!-- Footer begins here -->
+		<hr/>
+		<footer>
+			<ul>
+				<li>&copy; Jeff Parker</li>
+				<li><a href=''>Sitemap</a></li>
+			</ul>
+		</footer>
+	<!-- Footer ends here -->
 		</section>
 	<!-- Content ends here -->
+	
+
 	</body>
 </html>
