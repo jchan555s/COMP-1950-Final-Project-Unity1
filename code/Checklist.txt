@@ -23,15 +23,15 @@ B. Protosite                                                                Owne
         http://www.bcit.ca/study/outlines/20142061056
 10. submit exercises (must be on a sample exercise page.  Do not
     implement.  Just make sure button exists). 
-11. Ensure navigation accesses lecture notes, examples, and					Sean		Yes			No
+11. Ensure navigation accesses lecture notes, examples, and		    Sean		Yes			No
     downloads from any page.  Must limit the data shown to
 	user. Do not implement this using any code.   
 	Display all lectures in menu e.g.  Session01, Session02, 
 	Session03, Session04 but if in week2/session3, grey out 
 	any Session greater than Session03.
-13. Link to bcit.ca															Sean		Yes			Yes
-14. Link to my.bcit.ca														Sean		Yes			Yes
-15. Link to http://www.bcit.ca/study/courses/comp1950						Sean		Yes			Yes
+13. Link to bcit.ca							    Sean		Yes			Yes
+14. Link to my.bcit.ca							    Sean		Yes			Yes
+15. Link to http://www.bcit.ca/study/courses/comp1950			    Sean		Yes			Yes
 16. Test final website with firefox
 17. Test final website with Safari
 18. Test final website with Chrome
