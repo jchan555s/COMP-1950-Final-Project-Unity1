@@ -9,11 +9,11 @@ A. Meta Site (CSS different than protosite)                                 Owne
 
 
 B. Protosite                                                                Owner     DraftDone?   CompletelyFinished?  TargetDate                                                                            
-1.  nav item for lecture 													Sean		Yes			No
-2.  nav item for resources (text books & links to other website)			Sean		Yes			No
+1.  nav item for lecture 						                            Sean	  Yes			No
+2.  nav item for resources (text books & links to other website)	        Sean	  Yes			No
     See http://bcitcomp.ca/comp1950/resources/ for sample content
-3.  nav item to exercises													Sean		Yes			No
-4.  nav item to course info													Sean		Yes			No
+3.  nav item to exercises					                                Sean	  Yes			No
+4.  nav item to course info						                            Sean	  Yes			No
 5.  menu item course cirriculum linked to 									
         http://www.bcit.ca/study/outlines/20142061056
 6.  menu item timetable (fake link)
@@ -23,15 +23,15 @@ B. Protosite                                                                Owne
         http://www.bcit.ca/study/outlines/20142061056
 10. submit exercises (must be on a sample exercise page.  Do not
     implement.  Just make sure button exists). 
-11. Ensure navigation accesses lecture notes, examples, and		    Sean		Yes			No
+11. Ensure navigation accesses lecture notes, examples, and		            Sean	   Yes			No
     downloads from any page.  Must limit the data shown to
 	user. Do not implement this using any code.   
 	Display all lectures in menu e.g.  Session01, Session02, 
 	Session03, Session04 but if in week2/session3, grey out 
 	any Session greater than Session03.
-13. Link to bcit.ca							    Sean		Yes			Yes
-14. Link to my.bcit.ca							    Sean		Yes			Yes
-15. Link to http://www.bcit.ca/study/courses/comp1950			    Sean		Yes			Yes
+13. Link to bcit.ca							                                Sean		Yes			Yes
+14. Link to my.bcit.ca							                            Sean		Yes			Yes
+15. Link to http://www.bcit.ca/study/courses/comp1950			            Sean		Yes			Yes
 16. Test final website with firefox
 17. Test final website with Safari
 18. Test final website with Chrome
@@ -46,8 +46,8 @@ B. Protosite                                                                Owne
 28. Allow website to be adjusted for 2 widths <= 1024 &
     >1024 using Media Query
 29. All Proto site works with 2 style sheets: normal view					
-30. All Proto site works with 2 style sheets: Projector						Sean		No
-31. All Proto site styled for printing.										Sean		No
+30. All Proto site works with 2 style sheets: Projector			             Sean		No
+31. All Proto site styled for printing.					                     Sean		No
 32. Comment all code and use good tabbing.                                   J,S
 33. Validate all HTML 5										     
 34. Validate all CSS
