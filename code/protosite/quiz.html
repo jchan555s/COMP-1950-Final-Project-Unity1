@@ -13,6 +13,7 @@ By Jason Chan
 	<link 	type="text/css"
 			rel="stylesheet"
 			href="style.css"/>
+	
 </head>
 
 <body>
@@ -21,9 +22,9 @@ By Jason Chan
 	<p>Name: John Smith<br />
 	   Date: July 18, 2014</p>
 	
-	<h3>Please complete the quiz.  You have 18 minutes remaining.</h3>
-	<aside id="timer"You have 15 mins remaining.</aside> <!--absolute right -->
-	(if I have time, I will put a coundown timer using javascript)
+	<h3>Please complete the quiz.  The quiz is 20 mins in duration.</h3>
+	<aside>You have <span id="countdown"></span> remaining.</aside> <!--absolute right -->
+	
 
 <form>
 		
@@ -67,6 +68,6 @@ By Jason Chan
 	
 
 </form>
-
+	<script src="scripts/countdowntimer.js"></script>
 </body>
 </html>
