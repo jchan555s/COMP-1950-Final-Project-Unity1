@@ -7,18 +7,12 @@
 		<title>Lecture</title>
 		<meta charset="utf-8">
 		
-		<link rel="stylesheet" type="text/css" href="style.css"> 
-		<link rel="stylesheet" type="text/css" href="menu-style.css">  <!-- new -->
-		
-		
+		<link rel="stylesheet" type="text/css" media="screen" href="style.css"> 
+		<link rel="stylesheet" type="text/css" media="screen" href="menu-style.css">  <!-- new -->
+		<link rel="stylesheet" type="text/css" media="print" href="print.css" >
+		<link rel="alternate stylesheet" type="text/css" href="overhead.css" title="Overhead Style" media="screen" />
 		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 		<script src="menu.js"></script>  <!-- new -->
-		<script>
-		$("#list1").click(function( event ){
-			$("#list1a").slideToggle();
-			});
-		});
-		</script>
 	</head>
 	
 
@@ -48,6 +42,14 @@
 	
 	<!-- Navigation starts here -->
 		<nav>
+
+			<a href='' id='loginbutton'>log in</a>
+			<br/>
+			<ul id='extralinks'>
+				<li><a href=''>my.bcit.ca</a></li>
+				<li><a href=''>bcit.ca</a></li>
+				<li><a href=''><span>Have a question?</span> @Jeff Parker</a></li>
+			</ul>
 			<div class="wrapper">
 			  <!-- dont' need this <p class="heading">Simple Dropdown Selectbox</p> -->
 			<div class="dropdownbox" id="dropdownbox-lecture">
@@ -92,14 +94,9 @@
 			  <p>Quiz</p>
 			</div> 
 			<ul class="menu" id="quiz-menu">
-				<li><a href="dummy-quiz.html">Quiz1</a></li>
-				<li><a href="dummy-quiz.html">Quiz2</a></li>
-				<li><a href="dummy-quiz.html">Quiz3</a></li>
-				<li class="menu-diabled">Quiz4</li>
-				<li class="menu-diabled">Quiz5</li> 
-				<li class="menu-diabled">Quiz6</li>
-				<li class="menu-diabled">Quiz7</li> 
-				<li class="menu-diabled">Quiz8</li> 
+				<li><a href="dummy-quiz.html">Practice Quizzes</a></li>
+				<li><a href="dummy-quiz.html">Completed Quizzes</a></li>
+				<li><a href="dummy-quiz.html">Take Quiz</a></li>			
 			</ul>
 			</div>
 			
@@ -117,19 +114,21 @@
 			  <p>Course Info</p>
 			</div> 
 			<ul class="menu" id="courseinfo-menu">
-				<li>Cirriculum</li>
+				<li>Curriculum</li>
 				<li>Timetable</li>
 				<li>Room information</li>
 				<li>Grading</li>
 				<li>Policies</li> 
 			</ul>
 			</div>
-			
+			<form>
+				<input type="text" name="search" value="search" title="search">
+			</form>
 		</nav>
 	<!-- Navigation ends here -->
 	
 	<!-- Content starts here -->
-		<section>
+		<section id='outerwrapper'>
 			<div id='wrapper'>
 			<p id='class'>COMP 1950 - <em>intermediate web design and development</em></p>
 			<h1><span>Lecture 4 </span>&#123; CSS Layouts &#125;</h1>
@@ -187,11 +186,9 @@
 				<li>time coding and maintaining the CSS increases</li>
 			</ul>
 			</div>
-			
-			<a href='' id='loginbutton'>log in</a>
 				<!-- Footer begins here -->
 		<hr/>
-		<footer>		
+		<footer>
 			<ul>
 				<li>&copy; Jeff Parker</li>
 				<li><a href=''>Sitemap</a></li>
