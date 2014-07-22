@@ -6,10 +6,13 @@
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<title>Lecture</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<link rel="stylesheet" type="text/css" href="menu-style.css">  <!-- new -->
+		
 		
 		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-		
+		<script src="menu.js"></script>  <!-- new -->
 		<script>
 		$("#list1").click(function( event ){
 			$("#list1a").slideToggle();
@@ -45,19 +48,7 @@
 	
 	<!-- Navigation starts here -->
 		<nav>
-			<ul id='nav'>
-				<li id='list1'><a href=''>Lectures</a></li>
-					<ul id='list1a'>
-						<li><a href=''>Lecture 1</a></li>
-					</ul>
-				<li><a href=''>Exercises</a></li>
-				<li><a href=''>Quiz</a></li>
-				<li><a href=''>Resources</a></li>
-				<li><a href=''>Course info</a></li>
-			</ul>
-			<form>
-				<input type="text" name="search" value="search" title="search">
-			</form>
+
 			<a href='' id='loginbutton'>log in</a>
 			<br/>
 			<ul id='extralinks'>
@@ -65,6 +56,85 @@
 				<li><a href=''>bcit.ca</a></li>
 				<li><a href=''><span>Have a question?</span> @Jeff Parker</a></li>
 			</ul>
+			<div class="wrapper">
+			  <!-- dont' need this <p class="heading">Simple Dropdown Selectbox</p> -->
+			<div class="dropdownbox" id="dropdownbox-lecture">
+			  <p>Lectures</p>
+			</div> 
+			<ul class="menu" id="lecture-menu">
+				<li>Session01</li>
+				<li>Session02</li>
+				<li>Session03</li>
+				<li class="menu-diabled">Session04</li>
+				<li class="menu-diabled">Session05</li> 
+				<li class="menu-diabled">Session06</li> 
+				<li class="menu-diabled">Session07</li> 
+				<li class="menu-diabled">Session08</li> 
+			</ul>
+			</div>
+			
+			
+			<div class="wrapper">			
+			<div class="dropdownbox" id="dropdownbox-exercise">
+			  <p>Exercise</p>
+			</div> 
+			<ul class="menu" id="exercise-menu">
+				<li>Exercise1a</li>
+				<li>Exercise1b</li>
+				<li>Exercise2a</li>
+				<li>Exercise2b</li>
+				<li class="menu-diabled">Exercise3a</li> 
+				<li class="menu-diabled">Exercise3b</li>
+				<li class="menu-diabled">Exercise4a</li> 
+				<li class="menu-diabled">Exerciseba</li> 
+				<li class="menu-diabled">Exercise5a</li> 
+				<li class="menu-diabled">Exercise5b</li> 
+				<li class="menu-diabled">Exercise6a</li> 
+				<li class="menu-diabled">Exercise6b</li> 
+			</ul>
+			</div>
+			
+			
+			<div class="wrapper">			
+			<div class="dropdownbox" id="dropdownbox-quiz">
+			  <p>Quiz</p>
+			</div> 
+			<ul class="menu" id="quiz-menu">
+				<li><a href="dummy-quiz.html">Quiz1</a></li>
+				<li><a href="dummy-quiz.html">Quiz2</a></li>
+				<li><a href="dummy-quiz.html">Quiz3</a></li>
+				<li class="menu-diabled" ><a href="">Quiz4</a></li>
+				<li class="menu-diabled" ><a href="">Quiz5</a></li>
+				<li class="menu-diabled" ><a href="">Quiz6</a></li>
+				<li class="menu-diabled" ><a href="">Quiz7</a></li>
+				<li class="menu-diabled" ><a href="">Quiz8</a></li>
+			</ul>
+			</div>
+			
+			<!-- Resources goes directly to a dummy page.  no submenus -->
+			<div class="wrapper">			
+			<div class="dropdownbox" id="dropdownbox-resource">
+			  <p>Resources</p>
+			</div> 
+			<ul class="menu" id="resources-menu">				
+			</ul>
+			</div>
+			
+			<div class="wrapper">			
+			<div class="dropdownbox" id="dropdownbox-courseinfo">
+			  <p>Course Info</p>
+			</div> 
+			<ul class="menu" id="courseinfo-menu">
+				<li>Cirriculum</li>
+				<li>Timetable</li>
+				<li>Room information</li>
+				<li>Grading</li>
+				<li>Policies</li> 
+			</ul>
+			</div>
+			<form>
+				<input type="text" name="search" value="search" title="search">
+			</form>
 		</nav>
 	<!-- Navigation ends here -->
 	

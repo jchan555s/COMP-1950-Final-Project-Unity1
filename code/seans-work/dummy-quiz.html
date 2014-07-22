@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<!--
+By Jason Chan
+   May 31, 2014
+   This form is a student survey.
+-->
+
+
+<head>
+	<title>Quizzes</title>
+	<link 	type="text/css"
+			rel="stylesheet"
+			href="style.css"/>
+</head>
+
+<body>
+
+	menu items
+	<ul>
+		<li>Practice Quizzes</li>
+		<li>Completed Quizzes</li>
+	</ul>
+	
+	quizlist to be separate pane to the left or right.
+	<div class="quizlist">
+		<ul>
+			<li>Quiz 1</li>
+			<li>Quiz 2</li>
+			<li>Quiz 3</li>
+			<li>Quiz 4</li>
+			<li>Quiz 5 (greyed out starting here)</li>
+			<li>Quiz 6</li>
+			<li>Quiz 7</li>
+			<li>Quiz 8</li>
+		</ul>
+	</div>
+
+	<h2>Quiz #4</h2>
+	<p>Name: John Smith<br />
+	   Date: July 18, 2014</p>
+	
+	<h3>Please complete the quiz.  You have 18 minutes remaining.</h3>
+	<aside id="timer"You have 15 mins remaining.</aside> <!--absolute right -->
+	(if I have time, I will put a coundown timer using javascript)
+
+<form>
+		
+	
+	<fieldset>
+		<legend>Multipe Choice</legend>
+		1. To apply a style to a certain group of elements on a web page, configure a CSS <br />
+		<input type="radio" name="question1" value="ans1-a">a. group<br />
+		<input type="radio" name="question1" value="ans1-b">b. id<br />
+		<input type="radio" name="question1" value="ans1-c">c. class<br />
+		<input type="radio" name="question1" value="ans1-d">d. None of the above<br /><br />
+		
+		2. The box model consists of a content area surrounded by:<br />
+		<input type="radio" name="question2" value="ans2-a">a. a border<br />
+		<input type="radio" name="question2" value="ans2-b">b. padding, border, and margin<br />
+		<input type="radio" name="question2" value="ans2-c">c. border and margin<br />
+		<input type="radio" name="question2" value="ans2-d">d. spacing, border, and margin<br /><br />
+		
+		3. The _______ is the area between the content and the margin. <br />
+		<input type="radio" name="question3" value="ans3-a">a. border<br />
+		<input type="radio" name="question3" value="ans3-b">b. spacing<br />
+		<input type="radio" name="question3" value="ans3-c">c. padding<br />
+		<input type="radio" name="question3" value="ans3-d">d. none of the above<br /><br />
+		
+		4. _________ flow displays the elements on the page in the order they appear in the web page source code. <br />
+		<input type="radio" name="question4" value="ans4-a">a. default<br />
+		<input type="radio" name="question4" value="ans4-b">b. source code<br />
+		<input type="radio" name="question4" value="ans4-c">c. browser<br />
+		<input type="radio" name="question4" value="ans4-d">d. normal<br /><br />
+		
+		5. Use ___________ positioning to slightly change the location of an element in relation to where it would otherwise appear when rendered by a browser.<br />
+		<input type="radio" name="question5" value="ans5-a">a. absolute<br />
+		<input type="radio" name="question5" value="ans5-b">b. float<br />
+		<input type="radio" name="question5" value="ans5-c">c. relative<br />
+		<input type="radio" name="question5" value="ans5-d">d. z-index<br /><br />
+		
+	</fieldset>
+	<br />	
+	
+	<input type="submit" value="Submit" id=submitButton />		
+	
+
+</form>
+
+</body>
+</html>
