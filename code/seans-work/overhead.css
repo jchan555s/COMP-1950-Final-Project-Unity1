@@ -1,0 +1,24 @@
+#sidebar{
+	display:none;
+}
+
+section{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.contentp {
+	max-width:100%;
+}
+
+nav{
+	display:none;
+}
+
+*{
+	font-size:105%;
+}
+
+.bookmark img {
+	margin-top: 53px;
+}	
