@@ -1,1 +1,211 @@
-Lecture page
+<!DOCTYPE html>
+<!-- Sean Johnson -->
+
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Lecture</title>
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="style/style.css"> 
+		<link rel="stylesheet" type="text/css" media="screen" href="style/menu-style.css">  <!-- new -->
+		<link rel="stylesheet" type="text/css" media="print" href="style/print.css" >
+		<link rel="alternate stylesheet" type="text/css" href="style/overhead.css" title="Overhead Style" media="screen" />
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<script src="scripts/menu.js"></script>  <!-- new -->
+	</head>
+	
+
+	
+	<body>
+	
+	<!-- Sidebar starts here -->
+		<aside id='sidebar'>
+			<p id='chaptertitle'>Bookmarks</p><figure><img src='img/bookmark.png' alt='' /></figure>
+			<ul id='chapters'>
+				<li><a href='#c1'>Agenda</a></li>
+				<li><a href='#c2'>CSS Backgrounds</a></li>
+				<li><a href='#c3'>Sprites</a></li>
+				<li><a href=''>Example & exercise</a></li>
+				<li><a href=''>CSS Reset</a></li>
+				<li><a href=''>CSS Positioning</a></li>
+				<li><a href=''>Exercise</a></li>
+				<li><a href=''>Layout Basics</a></li>
+				<li><a href=''>Advanced CSS Layouts</a></li>
+				<li><a href=''>Navigation Lists</a></li>
+				<li><a href=''>Layout Exercise</a></li>
+				<li><a href=''>Summary</a></li>
+				<li><a href=''>Homework</a></li>
+			</ul>
+		</aside>
+	<!-- Sidebar ends here -->
+	
+	<!-- Navigation starts here -->
+		<nav>
+
+			<a href='' id='loginbutton'>log in</a>
+			<br/>
+			<ul id='extralinks'>
+				<li><a href='https://my.bcit.ca/'>my.bcit.ca</a></li>
+				<li><a href='http://www.bcit.ca/'>bcit.ca</a></li>
+				<li><a href=''><span>Have a question?</span> @Jeff Parker</a></li>
+			</ul>
+			<div class="wrapper">
+			  <!-- dont' need this <p class="heading">Simple Dropdown Selectbox</p> -->
+			<div class="dropdownbox" id="dropdownbox-lecture">
+			  <p>Lectures</p>
+			</div> 
+			<ul class="menu" id="lecture-menu">
+				<li>Session01</li>
+				<li>Session02</li>
+				<li>Session03</li>
+				<li>Session04</li>
+				<li class="menu-diabled">Session05</li> 
+				<li class="menu-diabled">Session06</li> 
+				<li class="menu-diabled">Session07</li> 
+				<li class="menu-diabled">Session08</li> 
+			</ul>
+			</div>
+			
+			
+			<div class="wrapper">			
+			<div class="dropdownbox" id="dropdownbox-exercise">
+			  <p>Exercise</p>
+			</div> 
+			<ul class="menu" id="exercise-menu">
+				<li>Exercise1a</li>
+				<li>Exercise1b</li>
+				<li>Exercise2a</li>
+				<li>Exercise2b</li>
+				<li class="menu-diabled">Exercise3a</li> 
+				<li class="menu-diabled">Exercise3b</li>
+				<li class="menu-diabled">Exercise4a</li> 
+				<li class="menu-diabled">Exerciseba</li> 
+				<li class="menu-diabled">Exercise5a</li> 
+				<li class="menu-diabled">Exercise5b</li> 
+				<li class="menu-diabled">Exercise6a</li> 
+				<li class="menu-diabled">Exercise6b</li> 
+			</ul>
+			</div>
+			
+			
+			<div class="wrapper">			
+			<div class="dropdownbox" id="dropdownbox-quiz">
+			  <p>Quiz</p>
+			</div> 
+			<ul class="menu" id="quiz-menu">
+				<li><a href="quiz.html">Quiz1</a></li>
+				<li><a href="quiz.html">Quiz2</a></li>
+				<li><a href="quiz.html">Quiz3</a></li>
+				<li class="menu-diabled" ><a href="">Quiz4</a></li>
+				<li class="menu-diabled" ><a href="">Quiz5</a></li>
+				<li class="menu-diabled" ><a href="">Quiz6</a></li>
+				<li class="menu-diabled" ><a href="">Quiz7</a></li>
+				<li class="menu-diabled" ><a href="">Quiz8</a></li>
+			</ul>
+			</div>
+			
+			<!-- Resources goes directly to a dummy page.  no submenus -->
+			<div class="wrapper">			
+			<div class="dropdownbox" id="dropdownbox-resource">
+			  <p><a href="resources.html">Resources</a></p>
+			</div> 
+			<ul class="menu" id="resources-menu">				
+			</ul>
+			</div>
+			
+			<div class="wrapper">			
+			<div class="dropdownbox" id="dropdownbox-courseinfo">
+			  <p>Course Info</p>
+			</div> 
+			<ul class="menu" id="courseinfo-menu">
+				<li>Curriculum</li>
+				<li>Timetable</li>
+				<li>Room information</li>
+				<li>Grading</li>
+				<li>Policies</li> 
+			</ul>
+			</div>
+			<form>
+				<input id='search' type="text" name="search" value="search" title="search">
+			</form>
+		</nav>
+	<!-- Navigation ends here -->
+	
+	<!-- Content starts here -->
+		<a id='top' class='shifted_anchor' ></a>
+		<section id='outerwrapper'>
+			<div id='wrapper'>
+			<p id='class'>COMP 1950 - <em>intermediate web design and development</em></p>
+			<h1><span>Lecture 4 </span>&#123; CSS Layouts &#125;</h1>
+			<hr/>
+			<figure class='bookmark'><img src='img/bookmark_large.png' alt='' /></figure><a id='c1' class='shifted_anchor' ></a><h2>Agenda</h2>
+			<ul class='contentlist'>
+				<li>CSS Backgrounds, Sprites</li>
+				<li>CSS Reset</li>
+				<li>Box Model idiosyncracies</li>
+				<li>Positioning techniques</li>
+				<li>Navigation</li>
+			</ul>
+			<hr/>
+			<figure class='bookmark'><img src='img/bookmark_large.png' alt='' /></figure><a id='c2' class='shifted_anchor' ></a><h2>CSS Backgrounds</h2>
+			<p class='contentp'>CSS supports several useful background related properties.</p>
+			<ul class='contentlist'>
+				<li><code>background-color:</code> assign the background color</li>
+				<li><code>background-image: url()</code> applies an image as the background</li>
+				<li><code>background-repeat: repeat | repeat-x | repeat-y | no-repeat</code> determines how a background image will repeat display</li>
+				<li><code>background-position: &lt;percentage&gt; | &lt;length&gt; | left | center | right</code> the position can be assigned with either pixels or percent
+				<br/><code>background-position: 100px 100px;</code> using pixels, you can position the x y starting point for the background image. 0px 0px is the default
+				<br/><code>background-position: 50% 0px;</code> using percentages you can center a background image, or with varying percentages can create a parallax background effect</li>
+			</ul>
+			<p class='contentp'>The pattern to follow when using the background property to define several space delimited values at once:</p>
+			<code>background: &lt;background-color&gt; | &lt;background-image&gt; | &lt;background-repeat&gt; | &lt;background-attachment&gt; | &lt;background-position&gt;</code>
+			<hr/>
+			<figure class='bookmark'><img src='img/bookmark_large.png' alt='' /></figure></figure><a id='c3' class='shifted_anchor' ></a><h2>Sprites</h2>
+			<p class='contentp'>Each image on your website requires a separate request/response between the client and server. Using one larger image instead of several smaller images can result in a more effiecient client/server transaction, since it reduces the number of requests/responses that need to occur.
+			<br/>
+			<br/>
+			This is especially useful for images that are NOT an important part of your foreground content, but sprites perfect for icons, textures and images used purely for aesthetics</p>
+			<ol class='orderedcontentlist'>
+				<li>use a <span>sprite generator</span> or an image program like photoshop to create a strip or grid of images. this is also an ideal time to determine the correct offsets</li>
+				<li>use an HTML tag ('div' or 'p' or etc) any block element</li>
+				<li>define a fixed height and width (large enough to show the image you need to display)</li>
+				<li>use the url and position offset values for example:</li>
+			</ol>
+			<ul class='contentlist'>
+				<li><code>background: url("myimage.jpg") xOffset yOffset;</code></li>
+				<li><code>background-image: url()</code></li>
+				<li><code>background: url("myimage.jpg") 0px 0px;</code> places myimage.jpg in the top left corner ( 0px 0px )</li>
+				<li><code>background: url("myimage.jpg") 50px 0px;</code> places myimage.jpg at the top, but shifts the start of the image 50 pixels to the right (offset 50px)</li>
+				<li><code>background: url("myimage.jpg") -50px 0px;</code> places myimage.jpg at the top, but shifts the start of the image 50 pixels to the left (offset -50px)</li>
+			</ul>
+			<p class='contentp'>Advantages of using sprites</p>
+			<ul class='contentlist'>
+				<li>fewer http requests between server and client</li>
+				<li>a single composite image is almost always smaller in filesize compared to the sum size of the images made separately</li>
+				<li>perfect for icons, buttons, and graphics that contribute to the aesthetic of the page</li>
+			</ul>
+			<p class='contentp'>Disadvantages of using sprites</p>
+			<ul class='contentlist'>
+				<li>not all images should be displayed as backgrounds! important content graphics should always use the img tag. this way the images will contribute to search engine optimization and maximize accessability</li>
+				<li>time spent building the composite sprite image(s) increases</li>
+				<li>time coding and maintaining the CSS increases</li>
+			</ul>
+			</div>
+				<!-- Footer begins here -->
+		<hr/>
+		<footer>
+			<ul>
+				<li>&copy; Jeff Parker</li>
+				<li><a href='#top'>Top</a></li>
+				<li><a href=''>Home</a></li>
+				<li><a href=''>Sitemap</a></li>
+			</ul>
+		</footer>
+	<!-- Footer ends here -->
+		</section>
+	<!-- Content ends here -->
+	
+
+	</body>
+</html>

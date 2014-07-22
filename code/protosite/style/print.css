@@ -1,0 +1,33 @@
+nav {
+	display:none;
+}
+
+#sidebar {
+	display:none;
+}
+
+*{
+	font-size:95%;
+	font-weight: 400;
+}
+
+img{
+	display:none;
+}
+
+code{
+	display:block;
+	font-size:100%;
+}
+
+.shifted_anchor{
+	display:none;
+}
+
+@media print{
+       a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
+}
+
+a{
+	color:black;
+}

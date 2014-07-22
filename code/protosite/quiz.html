@@ -10,52 +10,150 @@ By Jason Chan
 
 <head>
 	<title>Quizzes</title>
-	<link 	type="text/css"
-			rel="stylesheet"
-			href="style.css"/>
-	
+		<link rel="stylesheet" type="text/css" media="screen" href="style/style.css"> 
+		<link rel="stylesheet" type="text/css" media="screen" href="style/menu-style.css">  <!-- new -->
+		<link rel="stylesheet" type="text/css" media="print" href="style/print.css" >
+		<link rel="alternate stylesheet" type="text/css" href="style/overhead.css" title="Overhead Style" media="screen" />
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<script src="scripts/menu.js"></script>
 </head>
 
 <body>
+	
+	<!-- Navigation starts here -->
+		<nav>
 
-	<h2>Quiz #3</h2>
+			<a href='' id='loginbutton'>log in</a>
+			<br/>
+			<ul id='extralinks'>
+				<li><a href='https://my.bcit.ca/'>my.bcit.ca</a></li>
+				<li><a href='http://www.bcit.ca/'>bcit.ca</a></li>
+				<li><a href=''><span>Have a question?</span> @Jeff Parker</a></li>
+			</ul>
+			<div class="wrapper">
+			  <!-- dont' need this <p class="heading">Simple Dropdown Selectbox</p> -->
+			<div class="dropdownbox" id="dropdownbox-lecture">
+			  <p>Lectures</p>
+			</div> 
+			<ul class="menu" id="lecture-menu">
+				<li><a href="lecture.html">Session01</a></li>
+				<li><a href="lecture.html">Session02</a></li>
+				<li><a href="lecture.html">Session03</a></li>
+				<li><a href="lecture.html">Session04</a></li>
+				<li class="menu-diabled">Session05</li> 
+				<li class="menu-diabled">Session06</li> 
+				<li class="menu-diabled">Session07</li> 
+				<li class="menu-diabled">Session08</li> 
+			</ul>
+			</div>
+			
+			
+			<div class="wrapper">			
+			<div class="dropdownbox" id="dropdownbox-exercise">
+			  <p>Exercise</p>
+			</div> 
+			<ul class="menu" id="exercise-menu">
+				<li>Exercise1a</li>
+				<li>Exercise1b</li>
+				<li>Exercise2a</li>
+				<li>Exercise2b</li>
+				<li class="menu-diabled">Exercise3a</li> 
+				<li class="menu-diabled">Exercise3b</li>
+				<li class="menu-diabled">Exercise4a</li> 
+				<li class="menu-diabled">Exerciseba</li> 
+				<li class="menu-diabled">Exercise5a</li> 
+				<li class="menu-diabled">Exercise5b</li> 
+				<li class="menu-diabled">Exercise6a</li> 
+				<li class="menu-diabled">Exercise6b</li> 
+			</ul>
+			</div>
+			
+			
+			<div class="wrapper">			
+			<div class="dropdownbox" id="dropdownbox-quiz">
+			  <p>Quiz</p>
+			</div> 
+			<ul class="menu" id="quiz-menu">
+				<li><a href="quiz.html">Quiz1</a></li>
+				<li><a href="quiz.html">Quiz2</a></li>
+				<li><a href="quiz.html">Quiz3</a></li>
+				<li class="menu-diabled" ><a href="">Quiz4</a></li>
+				<li class="menu-diabled" ><a href="">Quiz5</a></li>
+				<li class="menu-diabled" ><a href="">Quiz6</a></li>
+				<li class="menu-diabled" ><a href="">Quiz7</a></li>
+				<li class="menu-diabled" ><a href="">Quiz8</a></li>
+			</ul>
+			</div>
+			
+			<!-- Resources goes directly to a dummy page.  no submenus -->
+			<div class="wrapper">			
+			<div class="dropdownbox" id="dropdownbox-resource">
+			  <p><a href="resources.html">Resources</a></p>
+			</div> 
+			<ul class="menu" id="resources-menu">				
+			</ul>
+			</div>
+			
+			<div class="wrapper">			
+			<div class="dropdownbox" id="dropdownbox-courseinfo">
+			  <p>Course Info</p>
+			</div> 
+			<ul class="menu" id="courseinfo-menu">
+				<li>Curriculum</li>
+				<li>Timetable</li>
+				<li>Room information</li>
+				<li>Grading</li>
+				<li>Policies</li> 
+			</ul>
+			</div>
+			<form>
+				<input id='search' type="text" name="search" value="search" title="search">
+			</form>
+		</nav>
+		
+	<!-- Navigation ends here -->
+				<aside id='timer'>You have <span id="countdown"></span> remaining.</aside> <!--absolute right -->
+	<section id='outerwrapper_q'>
+		<div id='wrapper'>
+	<h1><span>Quiz #3</span></h1>
 	<p>Name: John Smith<br />
 	   Date: July 18, 2014</p>
 	
 	<h3>Please complete the quiz.  The quiz is 20 mins in duration.</h3>
-	<aside>You have <span id="countdown"></span> remaining.</aside> <!--absolute right -->
-	
 
+	
+		</hr>
 <form>
 		
 	
-	<fieldset>
+	<fieldset id='q_form'>
 		<legend>Multipe Choice</legend>
-		1. To apply a style to a certain group of elements on a web page, configure a CSS <br />
+
+		<p class='contentp'>1. To apply a style to a certain group of elements on a web page, configure a CSS</p> <br />
 		<input type="radio" name="question1" value="ans1-a">a. group<br />
 		<input type="radio" name="question1" value="ans1-b">b. id<br />
 		<input type="radio" name="question1" value="ans1-c">c. class<br />
 		<input type="radio" name="question1" value="ans1-d">d. None of the above<br /><br />
 		
-		2. The box model consists of a content area surrounded by:<br />
+		<p class='contentp'>2. The box model consists of a content area surrounded by:</p><br />
 		<input type="radio" name="question2" value="ans2-a">a. a border<br />
 		<input type="radio" name="question2" value="ans2-b">b. padding, border, and margin<br />
 		<input type="radio" name="question2" value="ans2-c">c. border and margin<br />
 		<input type="radio" name="question2" value="ans2-d">d. spacing, border, and margin<br /><br />
 		
-		3. The _______ is the area between the content and the margin. <br />
+		<p class='contentp'>3. The _______ is the area between the content and the margin.</p> <br />
 		<input type="radio" name="question3" value="ans3-a">a. border<br />
 		<input type="radio" name="question3" value="ans3-b">b. spacing<br />
 		<input type="radio" name="question3" value="ans3-c">c. padding<br />
 		<input type="radio" name="question3" value="ans3-d">d. none of the above<br /><br />
 		
-		4. _________ flow displays the elements on the page in the order they appear in the web page source code. <br />
+		<p class='contentp'>4. _________ flow displays the elements on the page in the order they appear in the web page source code.</p> <br />
 		<input type="radio" name="question4" value="ans4-a">a. default<br />
 		<input type="radio" name="question4" value="ans4-b">b. source code<br />
 		<input type="radio" name="question4" value="ans4-c">c. browser<br />
 		<input type="radio" name="question4" value="ans4-d">d. normal<br /><br />
 		
-		5. Use ___________ positioning to slightly change the location of an element in relation to where it would otherwise appear when rendered by a browser.<br />
+		<p class='contentp'>5. Use ___________ positioning to slightly change the location of an element in relation to where it would otherwise appear when rendered by a browser.</p><br />
 		<input type="radio" name="question5" value="ans5-a">a. absolute<br />
 		<input type="radio" name="question5" value="ans5-b">b. float<br />
 		<input type="radio" name="question5" value="ans5-c">c. relative<br />
@@ -64,10 +162,12 @@ By Jason Chan
 	</fieldset>
 	<br />	
 	
-	<input type="submit" value="Submit" id=submitButton />		
+	<input type="submit" value="Submit" id='submitButton' />		
 	
 
 </form>
 	<script src="scripts/countdowntimer.js"></script>
+	</div>
+	</section>
 </body>
 </html>
