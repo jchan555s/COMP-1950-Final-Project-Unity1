@@ -11,6 +11,7 @@ h3{
 	margin-top:20px;
 }
 
+
 #submitButton {
 	font-weight:400;
 	font-size:1em;
@@ -54,11 +55,16 @@ footer{
 	width:100%;
 	padding-bottom:60px;
 	padding-top:40px;
+	color:grey;
+}
+
+footer a{
+	color:grey;
 }
 
 
 footer > ul > li {
-	color:grey;
+
 	font-style:italic;
 	float:left;
 	margin-right:30px;
@@ -101,6 +107,7 @@ h2 {
 	margin-left: 280px;
 	color: #989c9d;
 }
+
 #timer{
 	font-weight:400;
 	font-family: 'Source Code Pro', sans-serif;
@@ -113,9 +120,7 @@ h2 {
 	position:fixed;
 	z-index:4;
 	opacity:.9;
-
 }
-
 
 #outerwrapper_q {
 	margin-top:140px;
@@ -238,6 +243,10 @@ a{
 
 }
 
+footer a{
+	color:
+}
+
 #chaptertitle{
 	margin-top:140px;
 	margin-left:53px;
@@ -321,12 +330,12 @@ a:active {
 	text-decoration:none;
 }
 
-#outerwrapper a{
+#outerwrapper a,#outerwrapper_q a{
 	color: #989c9d;
 	border-bottom:1px solid;	
 }
 
-#outerwrapper a:hover{
+#outerwrapper a:hover, #outerwrapper_q a:hover{
 	color: #00acb7;
 	border-bottom:none;	
 }
