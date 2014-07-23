@@ -11,7 +11,7 @@
 <div class="style3"></div><div class="style_2"><span class="style3"></span></div>
 	<div id="wrap">
 	<div id="topbar">
-	  <h1 id="sitename">COMP 1950 Site Redsign by Sean Johnson and Jason Chan</h1>
+	  <h1 id="sitename">COMP 1950 Site Proposal by Sean Johnson and Jason Chan</h1>
 	  <div id="menus">
 	  <ul id="topmenu">
 	  
@@ -32,7 +32,7 @@
 
 <div id="content"> <!-- content -->
 	<div id="mainpage"> <!-- main page -->
-		<h2>Welcome to Our Website!</h2>
+		<h2>Rationale</h2>
 
 		<p>Our proposed redesign of the COMP1950 website will be the best that the students of BCIT have ever seen.
 			BCIT prides itself for offering the best quality education to help students enter the workforce.
@@ -73,22 +73,26 @@
 			<h3>Enhanced Navigation</h3>
 			
 			<h4>New Menu</h4>
-			<p>New menu with drop downlist</p>
-			<img src="images/navigation.jpg" alt="new navigation menu" height="" width="995">
-			
+			<p>The website will come with an elegant and easy to use new menu with drop downlist
+			allow quick access to content material.</p>
+			<figure>
+				<img src="images/navigation.jpg" alt="new navigation menu" height="" width="995">
+				<figcaption>The new menu</figcaption>
+			</figure>
 			
 			<h4>Log in</h4>
 			<p>Allows for students to log in and prevent unauthorized access to the material.
 			Also students can take quizzes, see past quiz results, post message to the message board.
 			</p>
-			<img src="images/login.jpg" alt="quiz menu" height="" width="209">
+			<img src="images/login.jpg" alt="login button" height="" width="209">
+			<figure>Login button</figure>
 			
 			<h4>Search bar</h4>
 			<p>Search bar allows searching lecture for keywords, greatly speeding up retrieval of
 			lecture notes while doing assignments and studying for exams.</p>
 			
-			<img src="images/search.jpg" alt="quiz menu" height="" width="236">
-			
+			<img src="images/search.jpg" alt="search bar" height="" width="236">
+			<figure>Search bar</figure>
 			
 			<h4>News & Message Board</h4>
 			<p>Using CMS, the teacher can broadcast to students on news such as details of
@@ -96,26 +100,42 @@
 			A Message board can be provided for students to collaborate on challenging homework assignment topics or discuss
 			what they recently learned.
 			
-			<img src="images/messageboard.jpg" alt="sample COMP 1950 message board" height="" width="850"> 
+			<figure>
+				<img src="images/messageboard.jpg" alt="sample COMP 1950 message board" height="" width="850"> 
+				<figcaption>Sample Message with Categories</figcaption>
+			<figure>
 			
-			<img src="images/message.jpg" alt="sample message from message board" height="" width="850"> 
+			<figure>
+				<img src="images/message.jpg" alt="sample message from message board" height="" width="850"> 
+				<figcaption>Sample Message</figcaption>
+			</figure>
+			<br />
 			
-			<img src="images/newmessage.jpg" alt="new message indicator" height="" width="227">
+			<figure>
+				<img src="images/newmessage.jpg" alt="new message indicator" height="" width="227">
+				<figcaption>New Message notification on navigation bar.</figcaption>
+			</figure>
 			</p>
 			
 			<h3>Lectures</h3>
 			<p>The lecture notes now appear with an outline which are hyperlinked to the lecture content which allows for easy navigation to 
 			lecture content.  The outline provides a great summary of the lecture and is a useful study aid in itself. As before,
 			the students can download homework.</p>
+			
+			
+			<figure>
+				<img  src="images/lecture.jpg" alt="sample lecture page" height="450" width="">			
+				<figcaption>The new lecture page!</figcaption>
+			</figure>
+			
 			<p>The lecture page will also allow teachers to interact with students by providing online surveys in which the students
 			could participate.  The online survey would use HTML5 canvas to draw the charts and help the teacher survey which
 			material requires more emphasis.</p>
 			
-			<img src="images/lecture.jpg" alt="sample lecture page" height="450" width="">
-			
-			<p>Lectures will have an interactive component</p>
-			
-			<img id="pollquestion" src="images/quiz-question.jpg" alt="sample lecture page" height="" width="400">
+			<figure>
+				<img id="poll-question" src="images/quiz-question.jpg" alt="sample lecture page" height="" width="400">
+				<figcaption>Lectures will have an interactive component to allow for real-time surveys. </figcaption>
+			</figure>
 			
 			<p>Interactive Poll Results:</p>
 			<div id="graphDiv1"></div>
@@ -133,26 +153,41 @@
 			submitted, or take a current quiz administered by the teacher during class.  The practice quizzes are quizzes that the teacher provides students that
 			will be similiar in style to the actual quizzes and exams.	 The completed quizzes are quizzes that
 			the students have taken in the past which displays their scores and allows for them to review the material
-			before the exams.
+			before the exams.</p>
 			
-			<img src="images/quizmenu.jpg" alt="quiz menu" height="" width="850"> 
+			<figure>
+				<img src="images/quizmenu.jpg" alt="quiz menu" height="" width="850"> 
+				<figcaption>The new quiz menu</figcaption>
+			</figure>
+			<br />
 			
-			For the above sections, the complete list of quizzes will be displayed but only quizzes that have been
+			<p>For the above sections, the complete list of quizzes will be displayed but only quizzes that have been
 			administered by the teacher will be enabled. Quizzes are multiple choice.  Once submitted, students
 			will be able to find out their score right away. The quiz will then appear enabled in the
 			Completed Quiz list section.  The quiz will have a countdown timer to aid students.
 			</p>
 			
-			We need to mentioned where we used jQuery or CSS and why.</p>
+			<h2>The Design Details...</h2>
+			<p>The following design techniques were used:<p>
+			<ul>
+				<li>CSS transition effects and javascript was used on the  main navigation on the proto-site.</li>
+				<li>CSS canvas and javascript was used to generate the interactive poll results.</li>
+				<li>javascript was used to generate the count-down timer functionality on the quiz page.</li>
+				<li>CSS opacity used on the timer of the quiz page.</li>				
+				<li>CSS border-radius used on the buttons.</li>
+				<li>CSS box-sizing used on the menu for the navigation.</li>
+				<li>overflow-x and overyflow-y in some general styling.</li>
+			</ul>
 			
 			<h3>List Features planned to implement but could not complete</h3>
 			Of the following features listed above, the following have yet to be implemented:
 			<ul>
 				<li>login</li>
 				<li>search lecture content</li>
-				<li>Class news</li>
-				<li>coloaboration message board</li>
+				<li>class message board</li>
+				<li>message board new message indicator</li>
 				<li>quiz page</li>
+				<li>interactive class survey and poll-results</li>
 			</ul>
 	</div> <!-- main page -->
 	
@@ -165,7 +200,7 @@
 </div> <!-- content -->
 
 <div id="footer">
-<p>Copyright &copy; 2013 your sitename| <a href="#">Sitemap</a></p>
+<p>Copyright &copy; 2014 Jason Chan & Sean Johnson| <a href="#">Sitemap</a></p>
 </div>
 
 <!--[if IE]><script src="excanvas.js"></script><![endif]-->

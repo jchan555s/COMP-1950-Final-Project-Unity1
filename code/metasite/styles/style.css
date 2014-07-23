@@ -37,6 +37,7 @@ body {
 	height:242px;
 	background:url(../images/header.jpg) no-repeat left top;
 	clear: both;
+	margin-bottom:40px;
 }
 /*Header Menu*/
 #topmenu {
@@ -94,6 +95,11 @@ h1, h2, h3, h4, h5 {
 	color:#B32C0E;
 	font-weight:bold;
 	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2, h3, h4, h5{
+	margin-top:30px;
 }
 #mainpage h1 {
 	font-size:24px;
@@ -208,3 +214,7 @@ h1, h2, h3, h4, h5 {
 	padding-left:100px;
 	padding-top:25px;
 	}
+	
+#poll-question{
+	border-style:solid;
+}
